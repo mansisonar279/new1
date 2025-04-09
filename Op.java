@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Op {
+public class Op
+ {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -13,6 +14,7 @@ public class Op {
             System.out.println(number + " is a negative number.");
         } else {
             System.out.println("The number is zero.");
+            System.out.println("The number is one.");
         }
 
         scanner.close();
